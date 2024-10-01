@@ -42,3 +42,20 @@ h3 {
   line-height: 1.2; /* 120% */
   letter-spacing: -0.4px;
 }
+
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  white-space: nowrap;
+  clip: rect(0 0 0 0);
+  clip-path: inset(50%);
+  overflow: hidden;
+}
+
+.no-scroll {
+  overflow: hidden;
+}
