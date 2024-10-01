@@ -1,19 +1,48 @@
 <header class="header">
   <div class="container">
     <nav class="nav">
-      <a class="nav-logo" href="./index.html" aria-label="Site logo">
-        <svg class="nav-logo-icon" width="100" height="30">
-          <use href="{=$icon-path}"></use>
-        </svg>
-      </a>
-      <ul class="nav-list">
-        <li class="nav-item">
-          <a class="nav-link {=$highlight-act}" href="./page-2.html">Page 2</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link {=$highlight-curr}" href="./page-3.html">Page 3</a>
-        </li>
+      <a class="logo" href="./index.html"
+        >english<span class="excellence">excellence</span>.</a
+      >
+      <ul class="header-nav-list">
+        <li><a class="nav-anchor" href="./index.html">About us</a></li>
+        <li><a class="nav-anchor" href="">Our lessons</a></li>
+        <li><a class="nav-anchor" href="">Teachers</a></li>
+        <li><a class="nav-anchor" href="">Reviews</a></li>
+        <li><a class="nav-anchor" href="">Contact us</a></li>
       </ul>
+
+      <div class="social-media">
+        <ul class="icons-list">
+          <li class="media-icons">
+            <a class="media-links" href="">
+              <svg class="icon" width="24" height="24">
+                <use href="./images/icons.svg#icon-facebook"></use>
+              </svg>
+            </a>
+          </li>
+          <li class="media-icons">
+            <a class="media-links" href="">
+              <svg class="icon" width="24" height="24">
+                <use href="./images/icons.svg#icon-instagram"></use>
+              </svg>
+            </a>
+          </li>
+          <li class="media-icons">
+            <a class="media-links" href="">
+              <svg class="icon" width="24" height="24">
+                <use href="./images/icons.svg#icon-youtube"></use>
+              </svg>
+            </a>
+          </li>
+        </ul>
+      </div>
     </nav>
+
+    <button class="menu-btn" type="button">
+      <svg class="icon header-menu" width="24" height="24">
+        <use href="./images/icons.svg#icon-menu"></use>
+      </svg>
+    </button>
   </div>
 </header>
